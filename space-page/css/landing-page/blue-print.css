@@ -1,0 +1,96 @@
+#blue-print{
+    padding: 170px 0;
+    color: white;
+}
+#blue-print .container:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#blue-print .left-side{
+    width: 60%;
+    float: left;
+}
+#blue-print .left-side img{
+    width: 62%;  
+}
+#blue-print .right-side{
+    width: 40%;
+    float: left;
+}
+#blue-print .right-side h1{
+   font-size: 4rem;
+   font-weight: 700;
+   text-transform: capitalize;
+   margin-bottom: 70px;
+   line-height: 1.2;
+}
+#blue-print .right-side .info-box{
+    padding: 0 0 90px;
+}
+#blue-print .right-side .info-box:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#blue-print .right-side .info-box .col-1{
+    width: 40%;
+    float: left;
+}
+#blue-print .right-side .info-box .col-1 .icon-container{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: relative;
+}
+#blue-print .right-side .info-box .col-1 .icon-container .dashed-circle{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px dashed white;
+    margin: 0 auto;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+#blue-print .right-side .info-box .col-1 .icon-container .fab, 
+#blue-print .right-side .info-box .col-1 .icon-container .fas{
+    font-size: 4.5rem;
+    top: 40px;
+    left: 50px;
+    position: absolute;
+}
+#blue-print .right-side .info-box .col-2{
+    width: 60%;
+    float: left;
+    margin-top: 62px;
+}
+#blue-print .right-side .info-box .col-2 .h3{
+    font-size: 5rem;
+    margin-top: 29px;
+    margin-bottom: 30px;
+}
+#blue-print .right-side .info-box .col-2 p{
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+#blue-print .right-side .info-box .col-2 a{
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: #fea83b;
+}
+  /*LAPTOPS DEVICES */
+  @media only screen and (max-width: 1215px) {
+    
+}  /*TABLETS DEVICES */
+@media only screen and (max-width: 1023px) {
+  
+}
+  /*MOBILE DEVICES */
+@media only screen and (max-width: 767px) {
+   
+}

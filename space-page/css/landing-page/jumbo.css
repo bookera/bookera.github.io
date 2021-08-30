@@ -1,0 +1,176 @@
+#jumbo{
+    padding: 0 0 400px;
+    background: rgb(128, 0, 128);
+}
+#jumbo:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#jumbo .left-side{
+    width: 40%;
+    display: inline-block;
+    float: left;
+}
+#jumbo .left-side .info-container{
+    position: relative;
+    top: 40px;
+}
+#jumbo .left-side .info-container h1{
+    font-size: 4.5rem;
+    color: whitesmoke;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+}
+#jumbo .left-side .info-container p{
+    font-size: 1rem;
+    line-height: 2;
+    color: whitesmoke;
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+}
+#jumbo .left-side .info-container .signup-area{
+    background: white;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px;
+    color: rebeccapurple
+}
+#jumbo .left-side .info-container .signup-area button{
+    background: #8245E2;
+    padding: 10px 25px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    border-radius: 35px;
+}
+
+#jumbo .left-side .info-container .signup-area input[type="email"]{
+    background: whitesmoke;
+    border: none;
+    padding: 10px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 1rem;
+    width: 220px;  
+}
+#jumbo .right-side{
+    width: 60%;
+    display: inline-block;
+    float: right;
+    padding: 0 40px;
+}
+#jumbo .right-side img{
+    width: 108%;
+}
+  /*LAPTOPS DEVICES */
+  @media only screen and (max-width: 1215px) {
+    #jumbo .left-side .info-container .signup-area {
+        position: relative;
+        top: 14px;
+        margin-left: 0;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    #jumbo .left-side .info-container .signup-area input[type="email"] {
+        width: 100%;
+        float: left;
+        position: relative;
+        top: 12px;
+    }
+    #jumbo .left-side .info-container .signup-area button {
+        background: #8245E2;
+        padding: 10px 0px;
+        font-size: 1.1rem;
+        width: 100%;
+        float: left;
+    }
+}  
+/*TABLETS DEVICES */
+@media only screen and (max-width: 1023px) {
+    #jumbo {
+        padding: 0 0 300px;
+    }
+    #jumbo .left-side {
+        width: 50%;
+    }
+    #jumbo .left-side .info-container p {
+        font-size: 1rem;  
+    }
+    #jumbo .left-side .info-container .signup-area {
+        width: 100%;
+    }
+    #jumbo .left-side .info-container h1 {
+        font-size: 3.5rem;
+    }
+    #jumbo .left-side .info-container .signup-area {
+        position: relative;
+        top: 14px;
+        margin-left: 0;
+        float: left;
+        width: 15%;
+        text-align: center;
+    }
+    #jumbo .left-side .info-container .signup-area input[type="email"] {
+        width: 50%;
+        float: left;
+        position: relative;
+        top: 12px;
+    }
+    #jumbo .left-side .info-container .signup-area button {
+        background: #8245E2;
+        padding: 10px 0px;
+        font-size: 1.1rem;
+        width: 35%;
+        float: left;
+    }
+    #jumbo .right-side {
+        width: 50%;
+    }
+    #jumbo .right-side img {
+        position: relative;
+        top: 156px;
+    }
+}
+/*MOBILE DEVICES */
+@media only screen and (max-width: 767px) {
+    #jumbo {
+        padding: 0 0 300px;
+    }
+    #jumbo .left-side {
+        width: 40%;
+    }
+    #jumbo .left-side .info-container p {
+        font-size: 1rem;  
+    }
+    #jumbo .left-side .info-container h1 {
+        font-size: 3.5rem;
+    }
+    #jumbo .left-side .info-container .signup-area {
+        position: relative;
+        top: 14px;
+        margin-left: 0;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    #jumbo .left-side .info-container .signup-area input[type="email"] {
+        width: 100%;
+        position: relative;
+        top: 12px;
+    }
+    #jumbo .left-side .info-container .signup-area button {
+        background: #8245E2;
+        font-size: 1.1rem;
+        width: 100%;
+        float: left;
+    }
+    #jumbo .right-side {
+        width: 60%;
+    }
+    #jumbo .right-side img {
+        top: 0px;
+    }
+}
