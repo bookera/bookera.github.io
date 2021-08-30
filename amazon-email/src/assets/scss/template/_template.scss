@@ -1,0 +1,23 @@
+html, body,
+.body{
+  background: #e4e5ea;
+  background-color: #e4e5ea;
+}
+.header .columns{
+  background: $primary-color;
+  background-color: $primary-color;
+  padding-bottom: -10px;
+
+  .columns{
+    padding-bottom: 20px;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    padding-top: 5px;
+    .amazon_logo{
+        width: 300px; 
+  }
+}
+.center-tag {
+  min-width: auto;
+}
+}
